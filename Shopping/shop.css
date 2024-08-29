@@ -18,6 +18,12 @@ body, html {
 
 .AmazonLink {
     color: rgb(0,113,133);
+    cursor: pointer;
+    transition: color 0.15s;
+}
+
+.AmazonLink:hover {
+    color:rgb(226, 114, 29);
 }
 
 .product-name {
@@ -46,6 +52,17 @@ body, html {
     padding: 4px 12px;
     border-radius: 24px;
     border: none;
+    opacity: 1;
+    transition: opacity 0.15s;
+    cursor: pointer;
+}
+
+.addToCart:hover {
+    opacity: 0.8;
+}
+
+.addToCart:active {
+    opacity: 0.5;
 }
 
 .BuyNow {
@@ -55,6 +72,17 @@ body, html {
     padding: 4px 12px;
     border-radius: 24px;
     border: none;
+    opacity: 1;
+    transition: opacity 0.15s;
+    cursor: pointer;
+}
+
+.BuyNow:hover {
+    opacity: 0.8;
+}
+
+.BuyNow:active {
+    opacity: 0.5;
 }
 
 
