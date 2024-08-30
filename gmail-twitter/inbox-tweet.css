@@ -1,0 +1,158 @@
+body, html {
+    height: 100%;
+    margin:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(178, 182, 186);
+}
+
+p {
+    font-family: Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+  
+.inbox-tweet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.gmail {
+    background-color: white;
+    margin-bottom: 30px;
+    padding: 10px 15px;
+    box-shadow: 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 4px;
+}
+
+.inbox-label {
+    color: rgb(109, 111, 109);
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.email{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    flex-direction: row;
+}
+
+.profile {
+    margin-right: 10px;
+}
+
+.profile-picture {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.email.info {
+    flex:1
+}
+
+.user-time {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 3px;
+}
+
+.user {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.send-time {
+    font-size: 14px;
+    color: rgb(120, 120, 120);
+}
+
+.subject {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.message {
+    color: rgb(120, 120, 120);
+}
+
+.tweet {
+    background-color: white;
+    display: flex;
+    padding: 8px;
+    width: 420px;
+    margin-bottom: 30px;
+}
+
+.user-profile{
+    margin-right: 10px;
+}
+
+.user-picture {
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    object-fit: cover;
+}
+
+.tweet-content {
+    flex:1;
+}
+
+.tweet-header {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.name {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.user-name {
+    font-size: 14px;
+    color: rgb(111, 111, 111);
+}
+
+.tweet-meassage {
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+
+.tweet-attachment {
+    display: flex;
+    align-items: center;
+    border: solid 1px rgb(200, 200, 200);
+    border-radius: 15px;
+    overflow: hidden;
+
+}
+
+.thumbnail {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(220, 220, 220);
+    margin-right: 10px;
+}
+
+.attachment-info {
+    flex: 1;
+    flex-direction: column;
+}
+
+.attachment-source {
+    color:  rgb(111, 111, 111);
+    margin-bottom: 3px;
+}
+
+.attachment-title {
+    line-height: 22px;
+}

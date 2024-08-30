@@ -1,0 +1,204 @@
+body, html {
+    height: 1600px;
+    margin:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(178, 182, 186);
+}
+
+p {
+    font-family: Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+.templates{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.redSquare {
+    margin-top: 20px;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 30px;
+
+}
+
+.greenCircle {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-bottom: 30px ;
+
+}
+
+.ServiceReview {
+    background-color: white;
+    width: 200px;
+    padding: 10px;
+    p{
+        margin-top:2px;
+    }
+
+    button {
+        margin: 4px 4px;
+    }
+
+    margin-bottom: 30px;
+}
+
+.installYoutube {
+    width: 250px;
+    height: 100px;
+    background-color: black;
+    padding: 10px;
+    height: 66px;
+    h3{
+        margin-top: 2px;
+        color: white;
+        margin-bottom: 0px;
+    }
+    
+    h6 {
+        margin-top: 10px;
+        color: rgb(178, 182, 186);
+        margin-bottom: 8px;
+    }
+    margin-bottom: 30px;
+}
+
+.tweetHere {
+    background-color: white;
+    padding: 12px;
+    box-shadow: 0 0 6px rgba(0,0,0,0.3);
+    width: 450px;
+    border-radius: 6px;
+    margin-bottom: 30px;
+}
+
+.twitter-user {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+
+    border-radius: 25px;
+    vertical-align: middle;
+}
+
+.tweetText {
+    padding-left: 8px;
+    font-size: 18px;
+    width: 300px;
+    vertical-align: middle;
+    border: none;
+}
+
+.tweet-button {
+    background-color: rgb(29, 155, 240);
+    padding: 8px 16px;
+    font-size: 16px;
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 30px;
+}
+
+.suggestions {
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.Profile {
+    background-color: white;
+    width: 200px;
+    display: inline-block;
+    box-shadow: 0 0 6px rgba(0,0,0,0.3);
+    margin-bottom: 30px;
+    margin-right: 15px;
+}
+
+.facebook-profile {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+
+    margin-bottom: 12px;
+}
+
+.user-name {
+    margin-top: 0px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 8px;
+    margin-bottom: 4px;
+}
+
+.mutuals {
+    color: rgb(100, 100, 100);
+    margin-left: 8px;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.AddFriend {
+    padding: 10px 20px;
+    color: white;
+    font-size: 16px;
+    margin-left: 8px;
+    margin-top: 0px;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 6px;
+    margin-bottom: 10px;
+    background-color: rgb(24, 119, 242);;
+}
+
+.Google {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+.google-logo {
+    width: 200px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.searchBar {
+    margin-top: -25px;
+    width: 500px;
+    padding-top:12px;
+    padding-left: 16px;
+    font-size: 16px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 30px;
+    margin-bottom: 30px;
+}   
+
+.buttons {
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.clickToSearch, .happyText {
+    font-size: 15px;
+    padding: 12px 20px;
+    border: none;
+    background-color: rgb(245, 245, 252);
+    margin-right: 10px;
+}
+
+
+
